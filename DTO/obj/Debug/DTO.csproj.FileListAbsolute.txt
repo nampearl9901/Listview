@@ -1,0 +1,6 @@
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DTO\bin\Debug\DTO.dll
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DTO\bin\Debug\DTO.pdb
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DTO\obj\Debug\DTO.dll
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DTO\obj\Debug\DTO.pdb

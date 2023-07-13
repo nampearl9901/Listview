@@ -1,0 +1,9 @@
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DALL\bin\Debug\DALL.dll
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DALL\bin\Debug\DALL.pdb
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DALL\bin\Debug\DTO.dll
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DALL\bin\Debug\DTO.pdb
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DALL\obj\Debug\DALL.csproj.AssemblyReference.cache
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DALL\obj\Debug\DALL.csproj.CoreCompileInputs.cache
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DALL\obj\Debug\DALL.csproj.CopyComplete
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DALL\obj\Debug\DALL.dll
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\DALL\obj\Debug\DALL.pdb

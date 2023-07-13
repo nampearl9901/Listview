@@ -1,0 +1,11 @@
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\bin\Debug\BLL.dll
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\bin\Debug\BLL.pdb
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\bin\Debug\DALL.dll
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\bin\Debug\DTO.dll
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\bin\Debug\DALL.pdb
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\bin\Debug\DTO.pdb
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\obj\Debug\BLL.dll
+C:\Users\ngocn\OneDrive\Desktop\PT phan mem ung dung\listview\BLL\obj\Debug\BLL.pdb
