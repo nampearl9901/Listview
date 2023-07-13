@@ -1,0 +1,51 @@
+Sanpham(Masp ,Tensp ,Loai ,Hangsx )
+Nhanvien(Manv,Tennv ,Ngaysinh,Diachi,Sodienthoai ,SoCMTND,
+Nguyenquan ,Ngayvao )
+Nhacungcap(MaNCC ,TenNCC ,Diachi ,Sodienthoai,SoFax )
+Nhap(Manhap,Ngaynhap,Manv MaNCC)
+Xuat(Maxuat,Ngayxuat,Manv )
+Chitietxuat(Maxuat,Masp ,Soluongxuat ,Dongiaxuat ,Baohanh )
+Chitietnhap(Manhap ,Masp,Soluongnhap ,Dongianhap ,Lydonhap)
+Admin(TaiKhoan,matKhau)
+
+=======SQL========
+CREATE database quanlyxe
+create table Sanpham(Masp int  primary key ,Tensp nvarchar(30) ,Loai varchar(10) ,Hangsx nvarchar(10) )
+create table Nhanvien(Manv int  primary key,Tennv nvarchar(30) ,Ngaysinh date ,Diachi nvarchar(30),Sodienthoai int ,SoCMTND int,
+Nguyenquan nvarchar(10) ,Ngayvao date )
+create table Nhacungcap(MaNCC int primary key ,TenNCC  nvarchar(10),Diachi nvarchar(10) ,Sodienthoai int,SoFax int )
+
+
+create table Nhap(Manhap int primary key,Ngaynhap date,Manv int not null ,MaNCC int not null, CONSTRAINT fk_manv
+  FOREIGN KEY (Manv)
+  REFERENCES Nhanvien (Manv),  CONSTRAINT fk_mancc
+  FOREIGN KEY (MaNCC)
+  REFERENCES Nhacungcap (MaNCC))
+
+
+create table Xuat(Maxuat int primary key ,Ngayxuat date,Manv int , CONSTRAINT fk_manvxuat
+  FOREIGN KEY (Manv)
+  REFERENCES Nhanvien (Manv)  )
+
+
+ create table Chitietxuat(Maxuat int  NOT NULL
+ ,Masp int  NOT NULL ,Soluongxuat int
+  ,Dongiaxuat money ,Baohanh nvarchar(10),
+   CONSTRAINT fk_maxuat
+  FOREIGN KEY (Maxuat)
+  REFERENCES Xuat (Maxuat),
+   CONSTRAINT fk_masp
+  FOREIGN KEY (Masp)
+  REFERENCES Sanpham (Masp) )
+
+
+create table Chitietnhap(Manhap int NOT NULL ,Masp int NOT NULL,Soluongnhap int ,Dongianhap money ,Lydonhap nvarchar(30),
+ CONSTRAINT fk_manhap
+  FOREIGN KEY (Manhap)
+  REFERENCES Nhap (Manhap),
+   CONSTRAINT fk_maspnhap
+  FOREIGN KEY (Masp)
+  REFERENCES Sanpham (Masp))
+
+
+create table taikhoan (TaiKhoan nvarchar(20),matKhau varchar(10))
